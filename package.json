@@ -1,0 +1,27 @@
+{
+  "name": "callbag-graceful",
+  "version": "1.0.0",
+  "description": "Callbag operator for graceful error handling",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mperktold/callbag-graceful.git"
+  },
+  "main": "readme.cjs.js",
+  "module": "readme.js",
+  "scripts": {
+    "build": "rollup readme.js -o readme.cjs.js --f cjs",
+    "pretest": "npm run build",
+    "test": "tape test.js",
+    "prepare": "npm test"
+  },
+  "author": "Matthias Perktold",
+  "license": "MIT",
+  "keywords": [
+    "callbag",
+    "graceful"
+  ],
+  "devDependencies": {
+    "rollup": "^0.64.1",
+    "tape": "^4.8.0"
+  }
+}
