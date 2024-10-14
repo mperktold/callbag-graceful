@@ -21,7 +21,7 @@
     "graceful"
   ],
   "devDependencies": {
-    "rollup": "^0.64.1",
+    "rollup": "^2.79.2",
     "tape": "^4.8.0"
   }
 }
